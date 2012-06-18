@@ -1,0 +1,22 @@
+#root {
+	
+}
+#main {
+	text-align:center;
+	margin:30px;
+	position:relative;
+}
+
+#root .modal {
+	width:400px; height:100px;
+	position:absolute; left:50%; top:0px;
+	margin-left:-200px;
+	-webkit-border-radius: 10px;
+	background-color: rgba(250, 0, 0, 0.5);
+	padding: 10px;
+}
+
+#root .modal .title,
+#root .modal .description {
+	text-align:center;
+}
