@@ -23,7 +23,6 @@ $.test.require(
 	}
 );
 
-var base = null;
 describe('モーダルウィンドウテスト', function() {
 	var temp = null;
 	var cnt = 0;
